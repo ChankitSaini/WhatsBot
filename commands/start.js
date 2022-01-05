@@ -48,6 +48,6 @@ module.exports = {
   command: "!start",
   commandType: "info",
   isDependent: false,
-  help: "Get information about your WhatsBot",
+  help: "Get information about your Neurotic Association",
   execute,
 };
