@@ -15,12 +15,12 @@ async function get(battery, phn_info) {
 
   return {
     msg:
-      `*Whatsbot*\n\nThis chat is Powered By *Whatsbot*\n\n*Battery:* ${batttxt}\n*Device:* ${phn_info.device_manufacturer} ${phn_info.device_model}\n*WA Version:* ${phn_info.wa_version}\n*Whatsbot Version:* ${packageJson.version}\n*Pmpermit:* ${config.pmpermit_enabled}\n\n*Official Repository Url 👇*\n` +
-      "```https://github.com/TheWhatsBot/WhatsBot```",
+      `*WhatsApp Bot*\n\nThis chat is Powered By *Neurotic Association*\n\n*Battery:* ${batttxt}\n*Device:* ${phn_info.device_manufacturer} ${phn_info.device_model}\n*WA Version:* ${phn_info.wa_version}\n*Whatsbot Version:* ${packageJson.version}\n*Pmpermit:* ${config.pmpermit_enabled}\n\n*Website👇*\n` +
+      "```https://chankit.live```",
     mimetype: "image/jpeg",
     data: Buffer.from(
       (
-        await axios.get("https://telegra.ph/file/ecbc27f276890bf2f65a2.jpg", {
+        await axios.get("https://telegra.ph/file/a1ff213bcd788baa833e9.jpg", {
           responseType: "arraybuffer",
         })
       ).data
