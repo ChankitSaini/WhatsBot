@@ -15,7 +15,7 @@ async function get(battery, phn_info) {
 
   return {
     msg:
-      `*WhatsApp Bot*\n\nThis chat is Powered By *Neurotic Association*\n\n*Battery:* ${batttxt}\n*Device:* ${phn_info.device_manufacturer} ${phn_info.device_model}\n*WA Version:* ${phn_info.wa_version}\n*Whatsbot Version:* ${packageJson.version}\n*Pmpermit:* ${config.pmpermit_enabled}\n\n*Website👇*\n` +
+      `*WhatsApp Bot*\n\nThis chat is Powered By *Neurotic Association*\n\n*Battery:* ${batttxt}\n*Device:* ${phn_info.device_manufacturer} ${phn_info.device_model}\n*WA Version:* ${phn_info.wa_version}\n*Bot Version:* ${packageJson.version}\n*Pmpermit:* ${config.pmpermit_enabled}\n\n*Website👇*\n` +
       "```https://chankit.live```",
     mimetype: "image/jpeg",
     data: Buffer.from(
